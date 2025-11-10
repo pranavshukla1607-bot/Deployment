@@ -13,4 +13,9 @@ public class SpringContoller {
 
         return "ok";
     }
+    @GetMapping("/gets")
+    public String getapp(){
+
+        return "ok";
+    }
 }
