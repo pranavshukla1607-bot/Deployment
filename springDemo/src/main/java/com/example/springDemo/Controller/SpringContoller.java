@@ -9,12 +9,13 @@ import org.springframework.web.bind.annotation.RestController;
 public class SpringContoller {
 
     @GetMapping("/get")
-    public String getMap(){
+    public String getMap() {
 
         return "ok";
     }
+
     @GetMapping("/gets")
-    public String getapp(){
+    public String getapp() {
 
         return "ok";
     }
